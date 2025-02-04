@@ -1,6 +1,7 @@
 package adapterDesignPattern;
 
 public class YESBankAdapter implements BankApi {
+    YESBankApi yesBankAPI = new YESBankApi();
     @Override
     public double getBalance(String accountNumber) {
         return 0;

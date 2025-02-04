@@ -1,8 +1,10 @@
 package adapterDesignPattern;
 
 public class ICICIBankAdapter implements BankApi{
+    ICICIBankApi iciciBankApi = new ICICIBankApi();
     @Override
     public double getBalance(String accountNumber) {
+
         return 0;
     }
 
